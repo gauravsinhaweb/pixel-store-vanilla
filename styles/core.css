@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap");
+html {
+  --btn-yellow: #ff9f00;
+  --btn-orange: #f08804;
+
+  --white: #fff;
+  --black: #000;
+
+  --bg-color: #f6f6f6;
+  --text-primary: #616161;
+
+  --bg-dark: #303030;
+  --bg-dark-text: #7f7f7f;
+
+  --danger: #c52929;
+  --success: #3d603f;
+  --warning: #764f17;
+  --info: #326a83;
+  --secondary: #6c6c6c;
+  --primary: #5243c2;
+
+  --primary-li: #ddeffd;
+  --secondary-li: #ebebeb;
+  --danger-li: #fff5f5;
+  --success-li: #edf7ed;
+  --warning-li: #fff4e5;
+  --info-li: #e5f6fd;
+
+  --cta: #303030;
+  font-family: "Poppins", sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
