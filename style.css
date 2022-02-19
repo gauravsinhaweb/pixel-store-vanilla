@@ -1,0 +1,94 @@
+.wrapper_main > .wrapper_head {
+  justify-content: space-between;
+  align-items: center;
+}
+.head_text {
+  text-transform: capitalize;
+  padding: 0 3rem;
+}
+.view_all {
+  text-transform: uppercase;
+}
+
+.card_hr .btn_wrapper_hr {
+  margin: 2rem;
+  gap: 3rem;
+}
+.card_hr .card_hr_content {
+  max-width: 85%;
+}
+
+/*product card */
+
+.wrapper_card .btn {
+  padding: 1rem;
+}
+
+.wrapper_card {
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.wrapper_card .card_hr {
+  margin: 0;
+  width: 30rem;
+  transform: scale(0.8);
+  margin: -3rem 0;
+}
+
+.home_footer {
+  height: 30rem;
+  background-color: var(--cta);
+}
+
+.modal_title > .btn_modal {
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+.card-content > div > .basic_inp,
+.inp_md {
+  width: 25rem;
+}
+.wrapper_input {
+  flex-direction: column;
+}
+.btn_atc {
+  width: 100%;
+}
+.btn_wrapper_hr > .btn_atc {
+  background-color: var(--cta);
+  color: var(--white);
+  border: 1px solid transparent;
+}
+.modal > .card-content * {
+  margin: 8px 0;
+}
+.wrapper_modal > .modal_title {
+  padding: 0;
+  border-bottom: 1px solid var(--secondary-li);
+}
+.btn_modal > .close-modal {
+  font-weight: 100;
+}
+.modal > .wrapper_modal {
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.modal > .modal_box {
+  width: 70rem;
+}
+.wrapper_content {
+  width: fit-content;
+}
+.modal > .card-content {
+  padding: 0;
+}
+
+/* footer  */
+.home_footer {
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-primary);
+}
+.footer_ul > li {
+  padding: 0.5rem 0;
+}
