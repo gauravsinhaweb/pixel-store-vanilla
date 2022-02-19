@@ -27,6 +27,7 @@
 .wrapper_card {
   flex-flow: row wrap;
   justify-content: flex-start;
+  background-color: var(--bg-color);
 }
 .wrapper_card .card_hr {
   margin: 0;
