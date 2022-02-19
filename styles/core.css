@@ -29,6 +29,8 @@ html {
   --cta: #303030;
   font-family: "Poppins", sans-serif;
 
+  --index-2: 2;
+
   scroll-behavior: smooth;
 }
 

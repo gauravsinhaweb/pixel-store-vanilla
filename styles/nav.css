@@ -96,7 +96,7 @@ ul {
   position: absolute;
   color: var(--bg-color);
   overflow: hidden;
-  z-index: 2;
+  z-index: var(--index-2);
 }
 .container > .modal {
   justify-content: space-between;
