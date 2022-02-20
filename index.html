@@ -439,6 +439,123 @@
           </div>
         </div>
       </main>
+      <!-- modal box -->
+      <!-- login  -->
+      <header id="modal" class="modal">
+        <div class="card modal_box flex">
+          <div class="modal_img">
+            <div class="login_banner flex-center">
+              <img src="/assets/download.png" alt="login-img" />
+              <div class="nav_brand_text h3">
+                Pixel.<span class="store">Store</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal_content">
+            <div class="flex wrapper_head">
+              <h2 class="h2">Login</h2>
+              <div>
+                <button class="btn_modal">
+                  <i
+                    id="close-modal"
+                    class="fa fa-times btn_close"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <form class="flex modal_form">
+              <label class="p text_cl" for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="basic_inp inp_md"
+                placeholder="johndoe@email.com"
+              />
+
+              <label class="p text_cl" for="password">password</label>
+              <input
+                type="password"
+                id="password"
+                class="basic_inp inp_md"
+                placeholder="Password"
+              />
+              <div class="flex wrapper_modal_btn">
+                <button class="btn btn-cta text_cl btn_login">login</button>
+              </div>
+            </form>
+            <div class="flex-center">
+              <span class="p">Need an account?</span>
+              <button id="open-signup" class="btn-link text_cl p">
+                sign up
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- modal box - sign up  -->
+
+      <!-- modal box -->
+
+      <header id="modal-signup" class="modal">
+        <div class="card modal_box flex">
+          <div class="modal_img">
+            <div class="login_banner flex-center">
+              <img src="https://picsum.photos/300/600" alt="signup-img" />
+              <div class="nav_brand_text h3">
+                Pixel.<span class="store">Store</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal_content">
+            <div class="flex wrapper_head">
+              <h2 class="h2">Signup</h2>
+              <div>
+                <button class="btn_modal">
+                  <i
+                    id="close-signup"
+                    class="fa fa-times btn_close"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <form class="flex modal_form">
+              <label class="p text_cl" for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                class="basic_inp inp_md"
+                placeholder="John Doe"
+              />
+              <label class="p text_cl" for="email-signup">Email</label>
+              <input
+                type="email"
+                id="email-signup"
+                class="basic_inp inp_md"
+                placeholder="johndoe@email.com"
+              />
+
+              <label class="p text_cl" for="password-signup">password</label>
+              <input
+                type="password"
+                id="password-signup"
+                class="basic_inp inp_md"
+                placeholder="password"
+              />
+              <div class="flex wrapper_modal_btn">
+                <button class="btn btn-cta text_cl btn_login">login</button>
+              </div>
+            </form>
+            <div class="flex-center">
+              <span class="p">Already have an account?</span>
+              <button id="open-login" class="btn-link text_cl p">Login</button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <script src="/javascript/modal.js"></script>
     </div>
   </body>
 </html>
