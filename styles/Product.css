@@ -49,3 +49,6 @@ main {
   color: var(--primary);
   font-size: 1.4rem;
 }
+.wrapper_filter > p > label {
+  padding: 0 1rem;
+}

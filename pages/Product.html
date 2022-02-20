@@ -41,7 +41,7 @@
             <input class="basic_inp inp_sm" type="text" placeholder="search" />
           </div>
 
-          <div class="">
+          <div>
             <ul class="flex nav_icons">
               <li>
                 <button id="nav-modal" class="btn btn-primary btn-login">
@@ -84,26 +84,71 @@
             />
             <h3 class="filter_head_text text_cl">category</h3>
             <p>
-              <input class="filter_input" type="checkbox" checked="true" />men
+              <input
+                id="filter_men"
+                class="filter_input"
+                type="checkbox"
+                checked="true"
+              /><label for="filter_men">men</label>
             </p>
-            <p><input class="filter_input" type="checkbox" />women</p>
-            <p><input class="filter_input" type="checkbox" />kids</p>
+            <p>
+              <input
+                id="filter_women"
+                class="filter_input"
+                type="checkbox"
+              /><label for="filter_women">women</label>
+            </p>
+            <p>
+              <input
+                id="filter_kids"
+                class="filter_input"
+                type="checkbox"
+              /><label for="filter_kids">kids</label>
+            </p>
             <h3 class="filter_head_text text_cl">rating</h3>
             <p>
-              <input class="filter_input" type="radio" checked="true" />4 Stars
-              & above
+              <input
+                id="filter_4_star"
+                class="filter_input"
+                type="radio"
+                checked="true"
+              /><label for="filter_4_star">4 Stars & above</label>
             </p>
-            <p><input class="filter_input" type="radio" />3 Stars & above</p>
-            <p><input class="filter_input" type="radio" />2 Stars & above</p>
-            <p><input class="filter_input" type="radio" />1 Stars & above</p>
+            <p>
+              <input
+                id="filter_3_star"
+                class="filter_input"
+                type="radio"
+              /><label for="filter_3_star">3 Stars & above</label>
+            </p>
+            <p>
+              <input
+                id="filter_2_star"
+                class="filter_input"
+                type="radio"
+              /><label for="filter_2_star">2 Stars & above</label>
+            </p>
+            <p>
+              <input
+                id="filter_1_star"
+                class="filter_input"
+                type="radio"
+              /><label for="filter_1_star">1 Stars & above</label>
+            </p>
 
             <h3 class="filter_head_text text_cl">sort by</h3>
             <p>
-              <input class="filter_input" type="radio" />Price - Low to High
+              <input id="filter_price_l_h" class="filter_input" type="radio" />
+              <label for="filter_price_l_h"> Price - Low to High</label>
             </p>
             <p>
-              <input class="filter_input" type="radio" checked="true" />Price -
-              High to Low
+              <input
+                id="filter_price_h_l"
+                class="filter_input"
+                type="radio"
+                checked="true"
+              />
+              <label for="filter_price_h_l">Price - High to Low</label>
             </p>
           </div>
         </aside>
