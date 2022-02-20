@@ -6,6 +6,10 @@
 ul {
   list-style: none;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .flex {
   display: flex;
 }
@@ -96,7 +100,7 @@ ul {
   position: absolute;
   color: var(--bg-color);
   overflow: hidden;
-  z-index: var(--index-2);
+  z-index: 2;
 }
 .container > .modal {
   justify-content: space-between;

@@ -1,0 +1,19 @@
+.card_item > .card_hr {
+  width: 50rem;
+  transform: scale(0.9);
+}
+.btn_wrapper_hr {
+  flex-grow: 1;
+}
+.btn_atc {
+  width: 100%;
+}
+.btn_wrapper_hr > .btn_atc {
+  background-color: var(--btn-yellow);
+  color: var(--black);
+  border: 1px solid transparent;
+}
+.text-head {
+  color: var(--text-primary);
+  margin: 2rem 0;
+}

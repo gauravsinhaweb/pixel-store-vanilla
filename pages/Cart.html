@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart / Pixel.store</title>
+    <link rel="stylesheet" href="/styles/nav.css" />
+    <link rel="stylesheet" href="/styles/Cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://pixeldesign.netlify.app/pixel-design.css"
+    />
+    <!-- fa icons  -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="h3">
+        <div class="wrapper_nav h3 flex">
+          <a href="/index.html"
+            ><div class="nav_brand_text">
+              pixel.<span class="store">store</span>
+            </div></a
+          >
+          <div>
+            <ul class="flex p category_list">
+              <li>games</li>
+              <li>hardware</li>
+              <li>service</li>
+              <li>shop</li>
+            </ul>
+          </div>
+          <div>
+            <input class="basic_inp inp_sm" type="text" placeholder="search" />
+          </div>
+
+          <div class="">
+            <ul class="flex nav_icons">
+              <li>
+                <button id="nav-modal" class="btn btn-primary btn-login">
+                  login
+                </button>
+              </li>
+
+              <a href="/pages/Wishlist.html"
+                ><li class="wrapper_badge">
+                  <i class="fas fa-heart" aria-hidden="true"></i>
+                  <span class="badge flex-center">6+</span>
+                </li></a
+              >
+              <a href="/pages/Cart.html">
+                <li class="wrapper_badge">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"> </i>
+                  <span class="badge flex-center">2</span>
+                </li></a
+              >
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="wrapper_cart flex">
+          <div class="wrapper_items">
+            <!-- item 1 -->
+            <div class="text_cl h3 text-head">Shopping Cart</div>
+
+            <div class="card_hr flex">
+              <div class="card_hr_img">
+                <img src="/assets/xbox.png" alt="..." />
+              </div>
+              <div class="card_hr_content">
+                <h2>Xbox One Series S</h2>
+                <p class="p-lg"><strong>Platform</strong> : Xbox One</p>
+
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="text_uc p-lg">50% off</div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-center btn_wrapper_hr">
+                <button class="btn out-cta btn_count">-</button>
+                <input class="p-lg" type="number" value="2" />
+                <button class="btn btn-cta btn_count">+</button>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="card_hr flex">
+              <div class="card_hr_img">
+                <img src="/assets/xbox.png" alt="..." />
+              </div>
+              <div class="card_hr_content">
+                <h2>Xbox One Series S</h2>
+                <p class="p-lg"><strong>Platform</strong> : Xbox One</p>
+
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="text_uc p-lg">50% off</div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-center btn_wrapper_hr">
+                <button class="btn out-cta btn_count">-</button>
+                <input class="p-lg" type="number" value="2" />
+                <button class="btn btn-cta btn_count">+</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- pricing box  -->
+          <div class="card card-content">
+            <div class="flex modal_title">
+              <div class="title h3 text_uc">Price Details</div>
+            </div>
+            <hr />
+            <div class="wrapper_price flex text_cl">
+              <div class="flex p-lg">
+                <span>price (2 items)</span><span>$200</span>
+              </div>
+              <div class="flex p-lg">
+                <span>discount</span><span>-$50</span>
+              </div>
+              <div class="flex p-lg">
+                <span>delivery charges</span><span>$200</span>
+              </div>
+              <hr />
+              <div class="title flex text_uc h3">
+                <span>Total amount</span><span>$150</span>
+              </div>
+            </div>
+
+            <div class="footer btn_wrapper_cwd flex-center">
+              <button class="btn btn-cta btn_order">place order</button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- modal box -->
+      <!-- login  -->
+      <header id="modal" class="modal">
+        <div class="card modal_box flex">
+          <div class="modal_img">
+            <div class="login_banner flex-center">
+              <img src="/assets/download.png" alt="login-img" />
+              <div class="nav_brand_text h3">
+                Pixel.<span class="store">Store</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal_content">
+            <div class="flex wrapper_head">
+              <h2 class="h2">Login</h2>
+              <div>
+                <button class="btn_modal">
+                  <i
+                    id="close-modal"
+                    class="fa fa-times btn_close"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <form class="flex modal_form">
+              <label class="p text_cl" for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="basic_inp inp_md"
+                placeholder="johndoe@email.com"
+              />
+
+              <label class="p text_cl" for="password">password</label>
+              <input
+                type="password"
+                id="password"
+                class="basic_inp inp_md"
+                placeholder="Password"
+              />
+              <div class="flex wrapper_modal_btn">
+                <button class="btn btn-cta text_cl btn_login">login</button>
+              </div>
+            </form>
+            <div class="flex-center">
+              <span class="p">Need an account?</span>
+              <button id="open-signup" class="btn-link text_cl p">
+                sign up
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- modal box - sign up  -->
+
+      <!-- modal box -->
+
+      <header id="modal-signup" class="modal">
+        <div class="card modal_box flex">
+          <div class="modal_img">
+            <div class="login_banner flex-center">
+              <img src="https://picsum.photos/300/600" alt="signup-img" />
+              <div class="nav_brand_text h3">
+                Pixel.<span class="store">Store</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal_content">
+            <div class="flex wrapper_head">
+              <h2 class="h2">Signup</h2>
+              <div>
+                <button class="btn_modal">
+                  <i
+                    id="close-signup"
+                    class="fa fa-times btn_close"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <form class="flex modal_form">
+              <label class="p text_cl" for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                class="basic_inp inp_md"
+                placeholder="John Doe"
+              />
+              <label class="p text_cl" for="email-signup">Email</label>
+              <input
+                type="email"
+                id="email-signup"
+                class="basic_inp inp_md"
+                placeholder="johndoe@email.com"
+              />
+
+              <label class="p text_cl" for="password-signup">password</label>
+              <input
+                type="password"
+                id="password-signup"
+                class="basic_inp inp_md"
+                placeholder="password"
+              />
+              <div class="flex wrapper_modal_btn">
+                <button class="btn btn-cta text_cl btn_login">login</button>
+              </div>
+            </form>
+            <div class="flex-center">
+              <span class="p">Already have an account?</span>
+              <button id="open-login" class="btn-link text_cl p">Login</button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <script src="/javascript/modal.js"></script>
+  </body>
+</html>
