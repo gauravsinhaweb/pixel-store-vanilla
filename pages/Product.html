@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/nav.css" />
+    <link rel="stylesheet" href="/styles/Product.css" />
+    <link
+      rel="stylesheet"
+      href="https://pixeldesign.netlify.app/pixel-design.css"
+    />
+    <!-- fa icons  -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <title>Product / Pixel.store</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="h3">
+        <div class="wrapper_nav h3 flex">
+          <a href="/index.html"
+            ><div class="nav_brand_text">
+              pixel.<span class="store">store</span>
+            </div></a
+          >
+          <div>
+            <ul class="flex p category_list">
+              <li>games</li>
+              <li>hardware</li>
+              <li>service</li>
+              <li>shop</li>
+            </ul>
+          </div>
+          <div>
+            <input class="basic_inp inp_sm" type="text" placeholder="search" />
+          </div>
+
+          <div class="">
+            <ul class="flex nav_icons">
+              <li>
+                <button id="nav-modal" class="btn btn-primary btn-login">
+                  login
+                </button>
+              </li>
+
+              <a href="/pages/Wishlist.html"
+                ><li class="wrapper_badge">
+                  <i class="fas fa-heart" aria-hidden="true"></i>
+                  <span class="badge flex-center">6+</span>
+                </li></a
+              >
+              <a href="/pages/Cart.html">
+                <li class="wrapper_badge">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"> </i>
+                  <span class="badge flex-center">2</span>
+                </li></a
+              >
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="wrapper_product">
+        <aside>
+          <div class="wrapper_filter">
+            <div class="wrapper_filter_head flex">
+              <h3 class="filter_head_text text_cl">filters</h3>
+              <button class="btn-link text_uc">clear</button>
+            </div>
+            <h3 class="filter_head_text text_cl">price</h3>
+            <label for="range"></label>
+            <input
+              type="range"
+              name="range"
+              id="range"
+              min="0"
+              max="100"
+              value="70"
+            />
+            <h3 class="filter_head_text text_cl">category</h3>
+            <p>
+              <input class="filter_input" type="checkbox" checked="true" />men
+            </p>
+            <p><input class="filter_input" type="checkbox" />women</p>
+            <p><input class="filter_input" type="checkbox" />kids</p>
+            <h3 class="filter_head_text text_cl">rating</h3>
+            <p>
+              <input class="filter_input" type="radio" checked="true" />4 Stars
+              & above
+            </p>
+            <p><input class="filter_input" type="radio" />3 Stars & above</p>
+            <p><input class="filter_input" type="radio" />2 Stars & above</p>
+            <p><input class="filter_input" type="radio" />1 Stars & above</p>
+
+            <h3 class="filter_head_text text_cl">sort by</h3>
+            <p>
+              <input class="filter_input" type="radio" />Price - Low to High
+            </p>
+            <p>
+              <input class="filter_input" type="radio" checked="true" />Price -
+              High to Low
+            </p>
+          </div>
+        </aside>
+        <main>
+          <div class="wrapper_card flex">
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">
+                  Irure fugiat non eu nulla nisi adipisicing.
+                </p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">
+                  Veniam consectetur qui quis id nostrud aute do est laboris eu.
+                </p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">
+                  Lorem irure incididunt voluptate enim nostrud enim ut
+                  reprehenderit do elit commodo in.
+                </p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">
+                  Eiusmod excepteur consectetur velit nostrud sint excepteur
+                  laborum magna.
+                </p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">Incididunt enim aute nulla ullamco.</p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">
+                  Aliquip sit cillum quis ad fugiat qui irure nostrud officia
+                  exercitation.
+                </p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">
+                  Sunt reprehenderit eiusmod elit anim enim reprehenderit ea
+                  laboris sunt in laborum commodo irure.
+                </p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">
+                  Enim amet nisi commodo occaecat consequat eu anim aliqua
+                  nostrud.
+                </p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">
+                  Incididunt ad sint tempor ut aliquip.
+                </p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="card_hr flex-center">
+              <div class="card_hr_img">
+                <img src="../../assets/xbox.png" alt="xbox" />
+              </div>
+              <div class="card_hr_content">
+                <h3>Xbox One Series S</h3>
+                <p class="card_hr_desc">
+                  Elit duis voluptate esse pariatur dolore tempor.
+                </p>
+                <div class="card_hr_price text_cl">
+                  <div class="p-lg">
+                    m.r.p.: <span class="text_line_th">$400</span>
+                  </div>
+                  <div class="p-lg">
+                    deal of the day:<span class="h2 dod_price"> $200</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex btn_wrapper btn_wrapper_hr">
+                <button class="btn out-cta">add to cart</button>
+                <button class="btn btn-cta">buy now</button>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
