@@ -18,14 +18,14 @@ a {
   justify-content: center;
   align-items: center;
 }
-
-.wrapper_nav {
+nav > .wrapper_nav {
   justify-content: space-between;
   align-items: center;
   height: 6rem;
   background-color: var(--cta);
   color: var(--bg-color);
   padding: 0 4rem;
+  gap: 2rem;
 }
 .nav_icons {
   gap: 4rem;
@@ -144,4 +144,29 @@ a {
 .btn_modal > .btn_close {
   font-size: 1.8rem;
   font-weight: 100;
+}
+
+@media screen and (max-width: 50rem) {
+  div > .basic_inp,
+  div > .inp_sm {
+    display: inline;
+  }
+
+  div > .category_list {
+    display: none;
+  }
+}
+@media screen and (max-width: 35rem) {
+  .btn-login {
+    display: none;
+  }
+  nav > .wrapper_nav {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 25rem) {
+  div > .basic_inp,
+  div > .inp_sm {
+    display: none;
+  }
 }

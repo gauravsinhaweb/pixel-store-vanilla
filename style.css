@@ -17,7 +17,9 @@
 .card_hr .card_hr_content {
   max-width: 85%;
 }
-
+.card_hr_img {
+  object-fit: cover;
+}
 /*product card */
 
 .wrapper_card .btn {
@@ -26,7 +28,7 @@
 
 .wrapper_card {
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: var(--bg-color);
 }
 .wrapper_card .card_hr {
@@ -89,7 +91,35 @@
   justify-content: space-around;
   align-items: center;
   color: var(--text-primary);
+  overflow: hidden;
 }
 .footer_ul > li {
   padding: 0.5rem 0;
+}
+
+@media screen and (max-width: 70rem) {
+  .wrapper_card .card_hr {
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 60rem) {
+  .wrapper_card .card_hr {
+    width: 24rem;
+  }
+
+  .home_footer {
+    justify-content: center;
+    gap: 2rem;
+  }
+  .footer_ul li {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 30rem) {
+  .login_banner img {
+    display: none;
+  }
+  .wrapper_card .card_hr {
+    width: 30rem;
+  }
 }

@@ -45,3 +45,9 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   text-align: center;
 }
+
+@media screen and (max-width: 64rem) {
+  .wrapper_cart > .wrapper_items {
+    order: 2;
+  }
+}
