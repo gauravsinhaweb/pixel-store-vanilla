@@ -1,5 +1,7 @@
 # Pixel.Store
 
+https://user-images.githubusercontent.com/75125943/155018322-d78bd609-bd10-4684-9549-ce28f21a9df8.mp4
+
 A one stop gaming ecommerce platform.
 
 ## Features and Functionalities
