@@ -1,5 +1,5 @@
 .card_item > .card_hr {
-  width: 50rem;
+  max-width: 50rem;
   transform: scale(0.9);
 }
 .btn_wrapper_hr {
